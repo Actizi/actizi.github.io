@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'PT Sans Bold';
+  src: url('../fonts/PTSans-Bold.eot');
+  src: url('../fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PTSans-Bold.woff') format('woff'),
+  url('../fonts/PTSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans Regular';
+  src: url('../fonts/PTSans-Regular.eot');
+  src: url('../fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PTSans-Regular.woff') format('woff'),
+  url('../fonts/PTSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+  @font-face {
+    font-family: 'Bosch Serif Regular';
+    src: url('../fonts/BoschSerif-Regular.eot');
+    src: url('../fonts/BoschSerif-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/BoschSerif-Regular.woff') format('woff'),
+      url('../fonts/BoschSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PT Sans Italic';
+    src: url('../fonts/PTSans-Italic.eot');
+    src: url('../fonts/PTSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PTSans-Italic.woff') format('woff'),
+    url('../fonts/PTSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@mixin light {
+  font-family: 'PT Sans Regular', sans-serif;
+}
+@mixin italic {
+  font-family: 'PT Sans Italic', sans-serif;
+}
+@mixin bold {
+  font-family: 'PT Sans Bold', sans-serif;
+}
+@mixin regular {
+  font-family: 'Bosch Serif Regular', sans-serif;
+}
+
